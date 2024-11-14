@@ -1,0 +1,8 @@
+<p><strong>Movies in your List</strong></p>
+<ul class="list-group">
+  <% @list.movies.each do |movie| %>
+    <li class="list-group-item"><%= movie.title %></li>
+    <li class="list-group-item"><%= movie.overview %></li>
+    <li class="list-group-item"><%= movie.overview %></li>
+    <li class="list-group-item"><%= movie.rating %></li>
+  <% end %>
