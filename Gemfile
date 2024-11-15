@@ -68,3 +68,4 @@ gem "autoprefixer-rails"
 gem "sassc-rails"
 gem "font-awesome-sass"
 gem "simple_form"
+gem 'dotenv-rails', groups: [:development, :test]
