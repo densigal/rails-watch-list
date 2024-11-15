@@ -5,9 +5,9 @@
         <h3>Create a new list</h3>
         <%= simple_form_for @list do |f| %>
           <%= f.input :name, placeholder: 'Drama' %>
+          <%= f.input :photo %>
           <%= f.submit class: 'btn btn-flat' %>
-          <%= f.input :photo, as: :file %>
-        <% end %>
+          <% end %>
       </div>
     </div>
   </div>
